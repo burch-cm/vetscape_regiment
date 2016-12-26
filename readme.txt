@@ -1,0 +1,1 @@
+This is a mockup website for the online gaming clans of (http://www.vetscape.org)[Vetscape], a nonprofit which helps veterans find their next mission in life.
