@@ -4,6 +4,7 @@
 	background-image: url("../img/troops-in-contact.png");
 	background-repeat: no-repeat;
 	background-position: top;
+	background-attachment: fixed;
 
 	display: -webkit-box;
 	display: -moz-box;
@@ -52,11 +53,12 @@ div.subtitle {
 	background-color: white;
 	padding: 8px;
 	border: 1px solid black;
+	min-width: 400px;
 }
 #top-text {
 	align-self: center;
 	border: 1px solid black;
-	padding: 5px;
+	padding: 20px;
 }
 
 #columns > div{
@@ -85,13 +87,49 @@ h3 {
 	background-position: top;
 	background-repeat: no-repeat;
 }
-#join-button{
+.vs-button{
 	background-color: black;
 	font-family: 'Cinzel';
 	color: white;
 	border: 0;
 	border-radius: 0;
-	width: 50%;
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+.vs-button:active{
+	color: white;
+}
+.vs-button:hover{
+	color: lightgrey;
+}
+.vs-button:focus{
+	color: lightgrey;
+}
+
+#join-button{
+	min-width: 50%;
+}
+#more-info{
+	min-width: 25%;
+}
+#contact{
+	min-width: 25%
+}
+.fade {
+   opacity: 0.7;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade:hover {
+    opacity: 1;
+}
+
+.test {
+	border: 1px solid red;
+}
+#links {
+	float: auto;
+	margin: auto;
 }
