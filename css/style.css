@@ -48,6 +48,7 @@ div.subtitle {
 	margin-top: -5px;
 
 }
+
 #top-box {
 	text-align: center;
 	background-color: white;
@@ -61,9 +62,13 @@ div.subtitle {
 	padding: 20px;
 }
 
-#columns > div{
+.columns > div{
+	background-position: top;
+	background-repeat: no-repeat;
 	height: 600px;
 }
+
+
 
 h3 {
 	text-align: center;
@@ -73,20 +78,23 @@ h3 {
 }
 #games {
 	background-image: url("../img/destiny.png");
-	background-position: top;
-	background-repeat: no-repeat;
 }
 #roster {
 	background-image: url("../img/division.png");
-	background-position: top;
-	background-repeat: no-repeat;
-
 }
 #forums {
 	background-image: url("../img/titanfall2.png");
-	background-position: top;
-	background-repeat: no-repeat;
 }
+#vetscape {
+	background-image: url("../img/cod.png");
+}
+#gallery {
+	background-image: url("../img/bf1.png")
+}
+#other {
+	background-image: url("../img/rainbow-six.png")
+}
+
 .vs-button{
 	background-color: black;
 	font-family: 'Cinzel';
@@ -95,6 +103,7 @@ h3 {
 	border-radius: 0;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	width: 80%;
 }
 .vs-button:active{
 	color: white;
@@ -109,19 +118,13 @@ h3 {
 #join-button{
 	min-width: 50%;
 }
-#more-info{
-	min-width: 25%;
-}
-#contact{
-	min-width: 25%
-}
+
 .fade {
-   opacity: 0.7;
+   opacity: 0.8;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
 }
-
 .fade:hover {
     opacity: 1;
 }
@@ -129,7 +132,11 @@ h3 {
 .test {
 	border: 1px solid red;
 }
-#links {
-	float: auto;
-	margin: auto;
+footer{
+	font-family: 'Lora', serif;
+	font-size: 0.7em;
+	color: lightgrey;
+	margin-top: 20px;
+	padding: 5px;
+	background-color: black;
 }
